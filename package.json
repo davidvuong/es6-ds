@@ -1,0 +1,33 @@
+{
+  "name": "data-structures",
+  "version": "0.0.1",
+  "description": "A collection of data structures implemented in JS (ES6)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "node-debug index.js",
+    "test": "mocha --compilers js:babel-register ./tests/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/davidvuong/data-structures.git"
+  },
+  "author": "David Vuong <david.vuong256@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidvuong/data-structures/issues"
+  },
+  "homepage": "https://github.com/davidvuong/data-structures#README",
+  "engines": {
+    "node": "5.1.x",
+    "npm": "3.3.x"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.3.13"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
