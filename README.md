@@ -48,7 +48,7 @@ This repository has only been tested on OS X but I should expect it to also run 
 ### Running data-structures
 
 ```
-npm run start --silent >! test.dot && dot -Tpdf test.dot -o test.pdf
+npm start --silent >! test.dot && dot -Tpdf test.dot -o test.pdf
 ```
 
 *TODO*

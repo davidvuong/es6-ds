@@ -11,8 +11,9 @@ import {bst2dot} from './helpers/tree'
 
 let tree = new BinarySearchTree();
 
-[2, 5, 10, 3, 1, 4, 6, 7].map((i) => { tree.insert(tree.root, i) });
-tree.remove(tree.root, 5);
+let nodes = [6, 3, 7, 9, 10, 1, 4, 19, 2];
+nodes.map((i) => tree.insert(tree.root, i));
+tree.remove(tree.root, 6);
+tree.remove(tree.root, 3);
 
 bst2dot(tree);
-console.log(tree.get(tree.root, 3));
