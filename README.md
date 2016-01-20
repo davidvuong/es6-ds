@@ -1,6 +1,6 @@
 # Data structures in NodeJS (ES6)
 
-**Welcome to data-structures!**
+**Welcome to es6-ds!**
 
 This repository contains a collection of common data structures implemented on NodeJS.
 
@@ -10,10 +10,10 @@ This repository contains a collection of common data structures implemented on N
 
 ## Getting Started
 
-To start using data-structures, simply clone the repository from GitHub:
+To start using es6-ds, simply clone the repository from GitHub:
 
 ```
-git clone git@github.com:davidvuong/data-structures.git
+git clone git@github.com:davidvuong/es6-ds.git
 ```
 
 After you've successfully cloned follow the instructions below to continue the setup process.
@@ -22,7 +22,7 @@ After you've successfully cloned follow the instructions below to continue the s
 
 This repository has only been tested on OS X but I should expect it to also run on any other platform that is supported by NodeJS v5.1.x. In addition, because we're using Babel to transpile ES6, Babel also needs to installed. The recommended method is to install it globally.
 
-### Building data-structures
+### Building es6-ds
 
 1. Install NodeJS v5.1.x:
 
@@ -45,7 +45,7 @@ This repository has only been tested on OS X but I should expect it to also run 
   npm install
   ```
 
-### Running data-structures
+### Running es6-ds
 
 ```
 npm start --silent >! test.dot && dot -Tpdf test.dot -o test.pdf
@@ -53,12 +53,18 @@ npm start --silent >! test.dot && dot -Tpdf test.dot -o test.pdf
 
 *TODO*
 
-## Testing data-structures
+## Testing es6-ds
 
 ```
 npm test
 ```
 
-## Contributing to data-structures
+or to execute tests based on a filter `-g "should do something"`:
+
+```
+mocha --compilers js:babel-register ./tests/**/*.spec.js -g "should do something"
+```
+
+## Contributing to es6-ds
 
 *TODO*

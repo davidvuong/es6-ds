@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * data-structures/tests/lib/bst.spec.js
+ * es6-ds/tests/lib/bst.spec.js
  *
  * Copyright (c) 2015 David Vuong <david.vuong256@gmail.com>
  * Licensed MIT

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * data-structures/index.js
+ * es6-ds/index.js
  *
  * Copyright (c) 2015 David Vuong <david.vuong256@gmail.com>
  * Licensed MIT

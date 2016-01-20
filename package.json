@@ -1,5 +1,5 @@
 {
-  "name": "data-structures",
+  "name": "es6-ds",
   "version": "0.0.1",
   "description": "A collection of data structures implemented in JS (ES6)",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/davidvuong/data-structures.git"
+    "url": "git+ssh://git@github.com/davidvuong/es6-ds.git"
   },
   "author": "David Vuong <david.vuong256@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/davidvuong/data-structures/issues"
+    "url": "https://github.com/davidvuong/es6-ds/issues"
   },
-  "homepage": "https://github.com/davidvuong/data-structures#README",
+  "homepage": "https://github.com/davidvuong/es6-ds#README",
   "engines": {
     "node": "5.1.x",
     "npm": "3.3.x"

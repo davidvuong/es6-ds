@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * data-structures/helpers/tree.js
+ * es6-ds/helpers/tree.js
  *
  * Copyright (c) 2015 David Vuong <david.vuong256@gmail.com>
  * Licensed MIT

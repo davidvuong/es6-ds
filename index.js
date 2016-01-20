@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * data-structures/index.js
+ * es6-ds/index.js
  *
  * index.js is the entry point to this project. To begin, simply invoke:
  *
