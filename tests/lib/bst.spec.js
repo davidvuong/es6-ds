@@ -43,7 +43,7 @@ describe('BinarySearchTree', () => {
 
         it('should update size on every insert', () => {
             const nodes = [2, 5, 10, 3, 1, 4, 6, 7];
-            nodes.map((i) => { tree.insert(tree.root, i) });
+            nodes.map(i => tree.insert(tree.root, i));
 
             chai.expect(tree.size).to.equal(nodes.length);
         });
@@ -81,7 +81,7 @@ describe('BinarySearchTree', () => {
         });
 
         it('should find the root', () => {
-            [6, 3, 7, 9, 10, 1].map((i) => tree.insert(tree.root, i));
+            [6, 3, 7, 9, 10, 1].map(i => tree.insert(tree.root, i));
 
             //     (6)
             //   (3)  (7)
@@ -92,7 +92,7 @@ describe('BinarySearchTree', () => {
 
         it('should find the node if node exists in tree', () => {
             // Same tree as above ^
-            [6, 3, 7, 9, 10, 1].map((i) => tree.insert(tree.root, i));
+            [6, 3, 7, 9, 10, 1].map(i => tree.insert(tree.root, i));
 
             chai.expect(tree.get(tree.root, 9).data).to.be.equal(9);
             chai.expect(tree.get(tree.root, 1).data).to.be.equal(1);
@@ -142,14 +142,14 @@ describe('BinarySearchTree', () => {
         });
 
         it('should not remove if node does not exist', () => {
-            [6, 3, 7, 9, 10, 1].map((i) => tree.insert(tree.root, i));
+            [6, 3, 7, 9, 10, 1].map(i => tree.insert(tree.root, i));
             chai.expect(tree.size).to.be.equal(6);
             tree.remove(tree.root, 99);
             chai.expect(tree.size).to.be.equal(6);
         });
 
         it('should remove when node has no children', () => {
-            [5, 3, 7].map((i) => tree.insert(tree.root, i));
+            [5, 3, 7].map(i => tree.insert(tree.root, i));
 
             //    (5)
             // (3)  (7)
@@ -160,7 +160,7 @@ describe('BinarySearchTree', () => {
         });
 
         it('should remove when node has one child (left)', () => {
-            [5, 3, 7, 6].map((i) => tree.insert(tree.root, i));
+            [5, 3, 7, 6].map(i => tree.insert(tree.root, i));
 
             //   (5)
             // (3)  (7)
@@ -177,7 +177,7 @@ describe('BinarySearchTree', () => {
         });
 
         it('should remove when node has one child (right)', () => {
-            [5, 3, 7, 8].map((i) => tree.insert(tree.root, i));
+            [5, 3, 7, 8].map(i => tree.insert(tree.root, i));
 
             //   (5)
             // (3)  (7)
@@ -194,7 +194,7 @@ describe('BinarySearchTree', () => {
         });
 
         it('should remove when node has 2 children', () => {
-            [5, 3, 7, 8, 6].map((i) => tree.insert(tree.root, i));
+            [5, 3, 7, 8, 6].map(i => tree.insert(tree.root, i));
 
             //    (5)
             // (3)   (7)
@@ -216,7 +216,7 @@ describe('BinarySearchTree', () => {
 
         it('should remove entire tree when removed in random order', () => {
             let nodes = [6, 3, 7, 9, 10, 1, 4, 19, 2];
-            nodes.map((i) => tree.insert(tree.root, i));
+            nodes.map(i => tree.insert(tree.root, i));
 
             //       (6)
             //    (3)    (7)
