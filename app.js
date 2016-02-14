@@ -2,18 +2,16 @@
 /**
  * es6-ds/index.js
  *
+ * Ignore this file. This is a file used just for manual testing. Everything
+ * will look like context-less gibberish here!
+ *
  * Copyright (c) 2015 David Vuong <david.vuong256@gmail.com>
  * Licensed MIT
  */
 'use strict';
-import BinarySearchTree from './lib/bst'
-import {bst2dot} from './helpers/tree'
+import BinarySearchTree from './lib/bst';
+import CircularLinkedList from './lib/ll';
+import BinaryHeap from './lib/heap';
+import RedBlackTree from './lib/rbt';
 
-let tree = new BinarySearchTree();
-
-let nodes = [6, 3, 7, 9, 10, 1, 4, 19, 2];
-nodes.map((i) => tree.insert(tree.root, i));
-tree.remove(tree.root, 6);
-tree.remove(tree.root, 3);
-
-bst2dot(tree);
+import {bst2dot} from './helpers/tree';
