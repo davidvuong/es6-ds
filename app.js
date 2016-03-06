@@ -22,4 +22,4 @@ import {bst2dot} from './helpers/tree';
 const list = new SkipList();
 
 _.shuffle(_.range(50)).map(i => list.insert(i));
-list.toString();
+console.log(list.toString());
