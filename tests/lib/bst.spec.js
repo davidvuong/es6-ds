@@ -215,7 +215,7 @@ describe('BinarySearchTree', () => {
         });
 
         it('should remove entire tree when removed in random order', () => {
-            let nodes = [6, 3, 7, 9, 10, 1, 4, 19, 2];
+            const nodes = [6, 3, 7, 9, 10, 1, 4, 19, 2];
             nodes.map(i => tree.insert(tree.root, i));
 
             //       (6)

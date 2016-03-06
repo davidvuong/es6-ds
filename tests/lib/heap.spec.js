@@ -103,7 +103,7 @@ describe('BinaryHeap', () => {
             nodes.map(i => heap.insert(i));
             chai.expect(heap.size).to.be.equal(nodes.length);
 
-            let removedNodes = [];
+            const removedNodes = [];
             _.each(_.range(nodes.length), () => {
                 removedNodes.push(heap.remove());
             });
