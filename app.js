@@ -18,8 +18,3 @@ import RedBlackTree from './lib/rbt';
 import SkipList from './lib/skiplist';
 
 import {bst2dot} from './helpers/tree';
-
-const list = new SkipList();
-
-_.shuffle(_.range(50)).map(i => list.insert(i));
-console.log(list.toString());
