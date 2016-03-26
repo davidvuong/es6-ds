@@ -1,5 +1,7 @@
 # Data structures in NodeJS (ES6)
 
+[![Build Status](https://travis-ci.org/davidvuong/es6-ds.svg?branch=master)](https://travis-ci.org/davidvuong/es6-ds)
+
 **Welcome to es6-ds!**
 
 This repository contains a collection of common data structures implemented on NodeJS + ES6.
@@ -20,12 +22,12 @@ This project has only been tested on OS X but I should expect it to also run on 
 
 ### Building es6-ds
 
-1. Install NodeJS v5.1.x:
+1. Install NodeJS v5.9.x:
 
-  I prefer to use [nvm](https://github.com/creationix/nvm) to manage my Node versions. 
+  I prefer to use [nvm](https://github.com/creationix/nvm) to manage my Node versions.
 
   ```
-  nvm install v5.1.0
+  nvm install v5.9.1
   ```
 
 1. Install Babel:
