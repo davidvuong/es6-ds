@@ -4,5 +4,8 @@ node_js:
 before_script:
   - npm install
   - npm install -g babel babel-core babel-cli
+  - npm install coveralls
 script:
   - npm test
+after_success:
+  - coveralls
