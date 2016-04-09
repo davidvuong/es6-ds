@@ -30,6 +30,9 @@
     "mocha": "^2.3.4"
   },
   "devDependencies": {
-    "babel-node-debug": "^2.0.0"
+    "babel-node-debug": "^2.0.0",
+    "eslint": "^2.7.0",
+    "eslint-config-airbnb": "^6.2.0",
+    "eslint-plugin-react": "^4.3.0"
   }
 }

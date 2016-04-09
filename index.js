@@ -13,7 +13,5 @@
  * Copyright (c) 2015 David Vuong <david.vuong256@gmail.com>
  * Licensed MIT
  */
-'use strict';
-
 require('babel-register');
 require('./app.js');

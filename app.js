@@ -8,7 +8,6 @@
  * Copyright (c) 2016 David Vuong <david.vuong256@gmail.com>
  * Licensed MIT
  */
-'use strict';
 import _ from 'lodash';
 
 import BinarySearchTree from './lib/bst';
@@ -17,4 +16,4 @@ import BinaryHeap from './lib/heap';
 import RedBlackTree from './lib/rbt';
 import SkipList from './lib/skiplist';
 
-import {bst2dot} from './helpers/tree';
+import { bst2dot } from './helpers/tree';
