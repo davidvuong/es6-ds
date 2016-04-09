@@ -1,6 +1,7 @@
 # Data structures in NodeJS (ES6)
 
 [![Build Status](https://travis-ci.org/davidvuong/es6-ds.svg?branch=master)](https://travis-ci.org/davidvuong/es6-ds)
+[![Code style: airbnb](https://img.shields.io/badge/code%20style-airbnb-blue.svg)](https://github.com/airbnb/javascript)
 
 **Welcome to es6-ds!**
 
